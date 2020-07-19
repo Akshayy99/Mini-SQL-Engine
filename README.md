@@ -40,13 +40,13 @@ It can handle normal "Select" Queries of following types:
   ```
   6. Projection of one or more (incl. all) columns from two tables with one join condition : 
       E.g. 
-      ```bash
-      select * from table1, table2 where table1.col1 = table2.col2;
-      ```
-```bash
-select col1,col2 from table1,table2 where table1.col1 = table2.col2;
-```
-           (Joining columns are printed only once!)
+  ```bash
+  select * from table1, table2 where table1.col1 = table2.col2;
+  ```
+  ```bash
+  select col1,col2 from table1,table2 where table1.col1 = table2.col2;
+  ```
+  (Joining columns are printed only once!)
 
 All possible Error Cases are handled!
 
